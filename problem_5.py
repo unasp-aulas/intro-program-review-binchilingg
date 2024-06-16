@@ -3,6 +3,6 @@ def main(dist):
     preco = dist * 0.5
   elif (dist > 200) & (dist <= 400):
     preco = dist * 0.45
-  elif dist > 400
+  elif dist > 400:
     preco = dist* 0.35
   return preco
